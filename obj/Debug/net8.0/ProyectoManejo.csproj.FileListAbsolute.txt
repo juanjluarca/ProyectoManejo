@@ -1,0 +1,17 @@
+C:\Users\Usuario\Desktop\URL\Proyectos C#\ProyectoManejo\bin\Debug\net8.0\ProyectoManejo.exe
+C:\Users\Usuario\Desktop\URL\Proyectos C#\ProyectoManejo\bin\Debug\net8.0\ProyectoManejo.deps.json
+C:\Users\Usuario\Desktop\URL\Proyectos C#\ProyectoManejo\bin\Debug\net8.0\ProyectoManejo.runtimeconfig.json
+C:\Users\Usuario\Desktop\URL\Proyectos C#\ProyectoManejo\bin\Debug\net8.0\ProyectoManejo.dll
+C:\Users\Usuario\Desktop\URL\Proyectos C#\ProyectoManejo\bin\Debug\net8.0\ProyectoManejo.pdb
+C:\Users\Usuario\Desktop\URL\Proyectos C#\ProyectoManejo\obj\Debug\net8.0\ProyectoManejo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\URL\Proyectos C#\ProyectoManejo\obj\Debug\net8.0\ProyectoManejo.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\URL\Proyectos C#\ProyectoManejo\obj\Debug\net8.0\ProyectoManejo.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\URL\Proyectos C#\ProyectoManejo\obj\Debug\net8.0\ProyectoManejo.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\URL\Proyectos C#\ProyectoManejo\obj\Debug\net8.0\ProyectoManejo.dll
+C:\Users\Usuario\Desktop\URL\Proyectos C#\ProyectoManejo\obj\Debug\net8.0\refint\ProyectoManejo.dll
+C:\Users\Usuario\Desktop\URL\Proyectos C#\ProyectoManejo\obj\Debug\net8.0\ProyectoManejo.pdb
+C:\Users\Usuario\Desktop\URL\Proyectos C#\ProyectoManejo\obj\Debug\net8.0\ProyectoManejo.genruntimeconfig.cache
+C:\Users\Usuario\Desktop\URL\Proyectos C#\ProyectoManejo\obj\Debug\net8.0\ref\ProyectoManejo.dll
+C:\Users\Usuario\Desktop\URL\Proyectos C#\ProyectoManejo\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Usuario\Desktop\URL\Proyectos C#\ProyectoManejo\obj\Debug\net8.0\ProyectoManejo.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\URL\Proyectos C#\ProyectoManejo\obj\Debug\net8.0\Proyecto.B9C426F4.Up2Date
