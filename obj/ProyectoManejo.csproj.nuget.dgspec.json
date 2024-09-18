@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\Desktop\\URL\\Proyectos C#\\ProyectoManejo\\ProyectoManejo.csproj": {}
+    "C:\\Users\\Usuario\\Documents\\GitHub\\ProyectoManejo\\ProyectoManejo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\Desktop\\URL\\Proyectos C#\\ProyectoManejo\\ProyectoManejo.csproj": {
+    "C:\\Users\\Usuario\\Documents\\GitHub\\ProyectoManejo\\ProyectoManejo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\URL\\Proyectos C#\\ProyectoManejo\\ProyectoManejo.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Documents\\GitHub\\ProyectoManejo\\ProyectoManejo.csproj",
         "projectName": "ProyectoManejo",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\URL\\Proyectos C#\\ProyectoManejo\\ProyectoManejo.csproj",
+        "projectPath": "C:\\Users\\Usuario\\Documents\\GitHub\\ProyectoManejo\\ProyectoManejo.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\URL\\Proyectos C#\\ProyectoManejo\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\Documents\\GitHub\\ProyectoManejo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"

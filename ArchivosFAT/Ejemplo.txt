@@ -1,0 +1,9 @@
+{
+  "Nombre": "Ejemplo",
+  "RutaInicial": "ArchivosFAT/Ejemplo0.json",
+  "Papelera": false,
+  "TamañoTotal": 70,
+  "FechaCreacion": "2024-09-17T21:09:40.969934-06:00",
+  "FechaModificacion": "2024-09-17T21:12:33.5622419-06:00",
+  "FechaEliminacion": null
+}

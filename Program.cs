@@ -1,15 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 using System.Text;
-
 
 public class ArchivoFAT
 {
     public string Nombre { get; set; }
     public string RutaInicial { get; set; }
-    public bool Papelera { get; set; } = false; // la papelera se encuentra en "false" por defecto
+    public bool Papelera { get; set; } = false;
     public int TamañoTotal { get; set; }
     public DateTime FechaCreacion { get; set; }
     public DateTime FechaModificacion { get; set; }
@@ -20,7 +16,7 @@ public class BloqueDatos
 {
     public string Datos { get; set; }
     public string RutaSiguiente { get; set; }
-    public bool EOF { get; set; } = false; // EndOfFile es "false" por defecto
+    public bool EOF { get; set; } = false;
 }
 
 public class FATSystem
@@ -80,7 +76,7 @@ public class FATSystem
         for (int i = bloques.Count - 1; i >= 0; i--)
         {
             string rutaBloque = directorioBase + nombre + i + ".json";
-            bloques[i].RutaSiguiente = rutaAnterior; // El siguiente bloque es el anterior guardado
+            bloques[i].RutaSiguiente = rutaAnterior;
             File.WriteAllText(rutaBloque, JsonConvert.SerializeObject(bloques[i], Formatting.Indented));
             rutaAnterior = rutaBloque;
         }
@@ -90,15 +86,13 @@ public class FATSystem
     public void ListFiles()
     {
         string[] archivosFAT = Directory.GetFiles(directorioBase, "*.txt");
-        int contador = 1;
 
         foreach (string archivoFAT in archivosFAT)
         {
             ArchivoFAT archivo = JsonConvert.DeserializeObject<ArchivoFAT>(File.ReadAllText(archivoFAT));
             if (!archivo.Papelera)
             {
-                Console.WriteLine($"{contador}. {archivo.Nombre} - {archivo.TamañoTotal} caracteres - Creado: {archivo.FechaCreacion} - Modificado: {archivo.FechaModificacion}");
-                contador++;
+                Console.WriteLine($"El archivo: {archivo.Nombre}\nTamaño: {archivo.TamañoTotal} caracteres - Creado: {archivo.FechaCreacion} - Modificado: {archivo.FechaModificacion}");
             }
         }
     }
@@ -261,7 +255,7 @@ class Program
         Console.WriteLine("1. Crear un archivo");
         Console.WriteLine("2. Listar archivos");
         Console.WriteLine("3. Abrir un archivo");
-        Console.WriteLine("4. Modificar un archivo"); // Nueva opción
+        Console.WriteLine("4. Modificar un archivo");
         Console.WriteLine("5. Eliminar un archivo");
         Console.WriteLine("6. Recuperar un archivo");
         Console.WriteLine("7. Salir");
@@ -280,6 +274,7 @@ class Program
                 Console.ReadKey();
                 break;
             case "3":
+                FATSystem.ListFiles();
                 OpenFile();
                 Console.ReadKey();
                 break;
@@ -299,7 +294,7 @@ class Program
                 salir = true;
                 break;
             default:
-                Console.WriteLine("Opción no válida.");
+                Console.WriteLine("Opción no válida");
                 Console.ReadKey();
                 break;
         }
@@ -344,7 +339,7 @@ static void ModifyFile()
 
     FATSystem.ModifyFile(nombre, texto.ToString());
 }
-    // Funciones que servirán para llamar al sistema FAT
+    // Funciones que servirán para llamar al sistema FAT en el programa
     static void CreateFile()
     {
         Console.Write("Ingrese el nombre del archivo: ");
@@ -361,6 +356,7 @@ static void ModifyFile()
     {
         Console.Write("Ingrese el nombre del archivo a abrir: ");
         string nombre = Console.ReadLine();
+        Console.Clear();
 
         FATSystem.OpenFile(nombre);
     }
